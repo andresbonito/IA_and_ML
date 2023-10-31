@@ -1,0 +1,35 @@
+Exemplo -> dados de plano de saude
+
+- relação matematica entre dados?
+- como medir a força?
+- pode se usar a relação para fazer previsões?
+- utilizando o exemplo, é possivel prever quanto custa
+    um plano de saude com determinada idade?
+
+Regressão Linear -> permite a previsão de valores se houver uma relação
+                         entre as variaveis.
+                         
+Correlação -> direta e inversamente proporcional
+
+Previsão = Intersecção + (Inclinação * Valor a prever(idade do plano de saude))
+y = b + a*x
+
+Regressão linear simples -> variavel explanatoria para prever uma variavel dependente
+Regressão linear multipla -> duas ou mais variaveis explanatorias para prever uma variavel dependente
+
+Analisar cada X e Y individualmente, junto de graficos
+
+Calculos:
+    - Correlação de Pearson
+    - Inclinação
+    - Interceptação
+    - Previsão
+
+r-squared = coeficiente de determinação (define se o modelo é bom ou não)
+
+Metodo -> stats.shapiro(residuos)
+h0 - dados estão normalmente distribuidos
+p <= 0.05 rejeito a hipotese nula (dados não estão normalmente distribuidos)
+p >= 0.05 não é possivel rejeitar a h0
+Teste estatistico = 0.92 (Quanto mais proximo de 1 melhor)
+Teste de hipotese = 0.03 (Hipotese nula é assumida como verdadeira)

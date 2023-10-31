@@ -1,0 +1,2 @@
+Mean Erro -> media da diferença entre realizado e previsto
+
